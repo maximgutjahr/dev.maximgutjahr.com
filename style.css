@@ -1,32 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 body {
     background-color: black;
     color: white;
 
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: "Poppins", sans-serif;
+
+    margin: 0%;
 }
 
-#wip-indicator {
-    position: absolute;
-    transform: translate(-50%, -50%);
+/* the navigation bar */
+#navigation-bar {
+    background-color: #101010;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-    top: 50%;
+    position: fixed;
+    top: 0px;
     left: 50%;
 
-    text-align: center;
+    transform: translateX(-50%);
+
+    width: auto;
+    height: fit-content;
+
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 20px #000000;
+
+    user-select: none;
 }
 
-#wip-indicator-title {
-    font-size: xx-large;
+.navigation-bar-button {
+    color: #414141;
+
+    text-align: center;
+    text-decoration: none;
+
+    margin: 10px 15px 10px 15px;
+
+    transition-duration: 0.2s;
+}
+
+.navigation-bar-button:hover {
+    color: white;
+}
+
+/* artist (buntarj & maxim gutjahr) columns */
+.artist-column {
+    float: left;
+
+    width: 50%;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+}
+
+.artist-column-name {
+    font-size: 72px;
     font-weight: bold;
 }
 
-#logo-attribute {
-    position: absolute;
-    transform: translateX(-50%);
+#buntarj {
+    background-image: url("/assets/buntarj.jpg");   
+}
 
-    bottom: 10px;
-    left: 50%;
+#maxim {
+    background-image: url("/assets/maxim.jpg");
+}
+
+/* a small copyright notice */
+#copyright-notice {
+    position: fixed;
+    left: 10px;
+    bottom: 0px;
 
     font-size: 10px;
-    color: rgb(60, 60, 60);
+    
+    color: #3c3c3c;
 }
