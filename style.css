@@ -17,14 +17,8 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    position: fixed;
-    top: 0px;
-    left: 50%;
-
-    transform: translateX(-50%);
-
     width: auto;
-    height: fit-content;
+    height: 15vh;
 
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 20px #000000;
@@ -35,6 +29,7 @@ body {
 .navigation-bar-button {
     color: #414141;
 
+    font-size: 36px;
     text-align: center;
     text-decoration: none;
 
@@ -52,7 +47,7 @@ body {
     float: left;
 
     width: 50%;
-    height: 100vh;
+    height: 85vh;
 
     display: grid;
     place-items: center;
