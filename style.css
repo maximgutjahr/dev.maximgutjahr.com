@@ -51,11 +51,31 @@ body {
 
     display: grid;
     place-items: center;
+
+    /*
+    filter: brightness(60%);
+    transition-duration: 0.2s;
+    */
 }
+
+/* 
+.artist-column:hover {
+    filter: brightness(100%);
+}
+*/
 
 .artist-column-name {
     font-size: 36px;
     font-weight: bold;
+
+    text-decoration: none;
+    transition-duration: 0.2s;
+
+    color: white;
+}
+
+.artist-column-name:hover {
+    text-decoration: underline;
 }
 
 #buntarj {
