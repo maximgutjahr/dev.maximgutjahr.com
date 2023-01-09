@@ -42,50 +42,6 @@ body {
     color: white;
 }
 
-/* artist (buntarj & maxim gutjahr) columns */
-.artist-column {
-    float: left;
-
-    width: 50%;
-    height: 90vh;
-
-    display: grid;
-    place-items: center;
-
-    /*
-    filter: brightness(60%);
-    transition-duration: 0.2s;
-    */
-}
-
-/* 
-.artist-column:hover {
-    filter: brightness(100%);
-}
-*/
-
-.artist-column-name {
-    font-size: 36px;
-    font-weight: bold;
-
-    text-decoration: none;
-    transition-duration: 0.2s;
-
-    color: white;
-}
-
-.artist-column-name:hover {
-    text-decoration: underline;
-}
-
-#buntarj {
-    background-image: url("/assets/buntarj.jpg");   
-}
-
-#maxim {
-    background-image: url("/assets/maxim.jpg");
-}
-
 /* a small copyright notice */
 #copyright-notice {
     position: fixed;
