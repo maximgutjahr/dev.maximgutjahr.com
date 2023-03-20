@@ -12,10 +12,6 @@ body {
 /* the navigation bar */
 #navigation-bar {
     background-color: #101010;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
     width: auto;
     height: 10vh;
@@ -26,19 +22,32 @@ body {
 }
 
 .navigation-bar-button {
+    position: absolute;
+    top: 5%;
+    transform: translate(-50%, -50%);
+
     color: #414141;
 
     font-size: 24px;
-    text-align: center;
     text-decoration: none;
-
-    margin: 10px 15px 10px 15px;
 
     transition-duration: 0.2s;
 }
 
 .navigation-bar-button:hover {
     color: white;
+}
+
+#navigation-bar-announcements {
+    left: 25%;
+}
+
+#navigation-bar-listen {
+    left: 50%;
+}
+
+#navigation-bar-contact {
+    left: 75%;
 }
 
 /* a small copyright notice */

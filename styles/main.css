@@ -36,16 +36,15 @@
 }
 
 .artist-column-status {
-    font-size: 1em;
     text-align: center;
 }
 
-#buntarj {
+#artist-column-buntarj {
     background-image: url("/assets/buntarj.png");
     background-size: cover;
 }
 
-#maxim {
+#artist-column-maxim {
     background-image: none;
 }
 
