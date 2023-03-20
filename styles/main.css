@@ -6,7 +6,8 @@
     height: 90vh;
 
     display: grid;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
 
     /*
     filter: brightness(60%);
@@ -34,11 +35,17 @@
     text-decoration: underline;
 }
 
+.artist-column-status {
+    font-size: 1em;
+    text-align: center;
+}
+
 #buntarj {
-    background-image: url("/assets/buntarj.jpg");   
+    background-image: url("/assets/buntarj.png");
+    background-size: cover;
 }
 
 #maxim {
-    background-image: url("/assets/maxim.jpg");
+    background-image: none;
 }
 
