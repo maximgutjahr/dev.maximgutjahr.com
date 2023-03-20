@@ -39,12 +39,14 @@
     text-align: center;
 }
 
+/* individual artist columns */
 #artist-column-buntarj {
-    background-image: url("/assets/buntarj.png");
+    --brightness: 50%;
+
+    background: linear-gradient(rgba(0, 0, 0, var(--brightness)), rgba(0, 0, 0, var(--brightness))), url("/assets/buntarj.png");
     background-size: cover;
 }
 
 #artist-column-maxim {
     background-image: none;
 }
-
