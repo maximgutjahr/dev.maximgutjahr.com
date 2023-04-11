@@ -13,6 +13,8 @@
     filter: brightness(60%);
     transition-duration: 0.2s;
     */
+
+    --brightness: 50%;
 }
 
 /* 
@@ -41,12 +43,10 @@
 
 /* individual artist columns */
 #artist-column-buntarj {
-    --brightness: 50%;
-
     background: linear-gradient(rgba(0, 0, 0, var(--brightness)), rgba(0, 0, 0, var(--brightness))), url("/assets/buntarj.png");
     background-size: cover;
 }
 
 #artist-column-maxim {
-    background-image: none;
+    background: linear-gradient(rgba(0, 0, 0, var(--brightness)), rgba(0, 0, 0, var(--brightness))) #b2f79b;
 }
