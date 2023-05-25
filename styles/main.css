@@ -43,7 +43,7 @@
 
 /* individual artist columns */
 #artist-column-buntarj {
-    background: linear-gradient(rgba(0, 0, 0, var(--brightness)), rgba(0, 0, 0, var(--brightness))), url("/assets/buntarj.png");
+    background: linear-gradient(rgba(0, 0, 0, var(--brightness)), rgba(0, 0, 0, var(--brightness))), url("/assets/buntarj.jpg");
     background-size: cover;
 }
 
