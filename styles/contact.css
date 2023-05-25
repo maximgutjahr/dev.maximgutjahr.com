@@ -1,5 +1,8 @@
 #contact-ways {
-    margin-left: 15px;
+    margin: 15px;
+
+    text-align: center;
+    font-size: larger;
 }
 
 #contact-ways a {
