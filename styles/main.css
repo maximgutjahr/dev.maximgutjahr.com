@@ -1,52 +1,25 @@
-/* artist (buntarj & maxim gutjahr) columns */
-.artist-column {
-    float: left;
-
-    width: 50%;
-    height: 90vh;
-
-    display: grid;
-    align-items: center;
-    justify-content: center;
-
-    /*
-    filter: brightness(60%);
-    transition-duration: 0.2s;
-    */
-
-    --brightness: 50%;
-}
-
-/* 
-.artist-column:hover {
-    filter: brightness(100%);
+/*
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(/assets/background.jpg);
 }
 */
 
-.artist-column-name {
-    font-size: 36px;
-    font-weight: bold;
+#album-concept {
+    width: 35%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 
-    text-decoration: none;
-    transition-duration: 0.2s;
+    top: 50%;
+    left: 50%;
 
-    color: white;
-}
-
-.artist-column-name:hover {
-    text-decoration: underline;
-}
-
-.artist-column-status {
     text-align: center;
 }
 
-/* individual artist columns */
-#artist-column-buntarj {
-    background: linear-gradient(rgba(0, 0, 0, var(--brightness)), rgba(0, 0, 0, var(--brightness))), url("/assets/buntarj.jpg");
-    background-size: cover;
-}
+#album-concept-title {
+    font-size: 72px;
+    font-weight: bold;
 
-#artist-column-maxim {
-    background: linear-gradient(rgba(0, 0, 0, var(--brightness)), rgba(0, 0, 0, var(--brightness))) #80011f;
+    color: white;
+
+    margin-bottom: 40px;
 }
