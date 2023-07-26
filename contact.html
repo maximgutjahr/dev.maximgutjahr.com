@@ -9,7 +9,12 @@
         <meta property="og:image" content="https://maximgutjahr.com/images/og-image.png"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.11.0/dist/email.min.js"></script>
+        <script src="/scripts/contact.js" defer></script>
 
+        <!-- Styles -->
         <link rel="stylesheet" href="/styles/default.css"/>
         <link rel="stylesheet" href="/styles/contact.css"/>
 
@@ -25,13 +30,15 @@
 
         <img id="monitor-image" src="/assets/monitor.svg"/>
 
-        <div id="contact-info">
+        <div id="contact-form">
             vagabond@raumschiff:~$ kontakte<br/><br/>
 
-            E-Mail: <a href="mailto:maximgutjahr@web.de">maximgutjahr@web.de</a><br/>
-            Discord: <a href="https://discord.com/users/260435291821703168">@maximgutjahr</a><br/><br/>
+            Name: &nbsp;&nbsp;<input id="contact-form-name" type="text"/><br/>
+            E-Mail: <input id="contact-form-email" type="email"/><br/><br/>
 
-            Sie können auch direkt eine Nachricht von der Website senden, indem Sie <a href="#send-message">hier</a> auf die Schaltfläche klicken.
+            Nachricht: <br/><textarea id="contact-form-message"></textarea><br/>
+
+            <button id="contact-form-button">Senden</button>
         </div>
     </body>
 </html>
