@@ -37,16 +37,12 @@ body {
     color: white;
 }
 
-#navigation-bar-announcements {
-    left: 25%;
-}
-
-#navigation-bar-listen {
-    left: 50%;
+#navigation-bar-blog {
+    left: 33.33%;
 }
 
 #navigation-bar-contact {
-    left: 75%;
+    left: 66.66%;
 }
 
 /* a small copyright notice */
