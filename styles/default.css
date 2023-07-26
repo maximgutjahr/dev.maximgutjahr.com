@@ -38,11 +38,15 @@ body {
 }
 
 #navigation-bar-blog {
-    left: 33.33%;
+    left: 25%;
+}
+
+#navigation-bar-home {
+    left: 50%;
 }
 
 #navigation-bar-contact {
-    left: 66.66%;
+    left: 75%;
 }
 
 /* a small copyright notice */
