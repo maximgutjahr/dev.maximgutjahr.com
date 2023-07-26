@@ -1,0 +1,26 @@
+#monitor-image {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    top: 52.5%;
+    left: 50%;
+
+    width: 40%;
+    height: auto;
+}
+
+#contact-info {
+    position: absolute;
+
+    top: 21%;
+    left: 33%;
+
+    width: 34%;
+
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+}

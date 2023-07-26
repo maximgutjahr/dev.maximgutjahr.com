@@ -6,6 +6,7 @@ body {
 
 #album-concept {
     width: 35%;
+
     position: absolute;
     transform: translate(-50%, -50%);
 
