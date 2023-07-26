@@ -23,4 +23,7 @@ button.addEventListener("click", async () => {
     } else {
         alert("Es ist ein Fehler aufgetreten, bitte versuchen Sie es später noch einmal.");
     }
+
+    button.disabled = false;
+    button.innerText = "Senden";
 });
