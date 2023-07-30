@@ -38,6 +38,13 @@ button:hover {
     text-decoration: underline;
 }
 
+button:disabled {
+    cursor: not-allowed;
+
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
 /*
 #monitor-image {
     position: absolute;
